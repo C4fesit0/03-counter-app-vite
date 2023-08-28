@@ -6,7 +6,7 @@ describe('Pruebas en 11-async-await.js', () => {
     test('getImagen debe retornar una URL de la imagen', async () => { 
         const resp = await getImagen();
 
-        console.log(resp);
-        expect( resp).toBe('No se encontro la imagen')
+        //console.log(resp);
+        expect(resp).toEqual('No se encontro la imagen')
      })
  })
